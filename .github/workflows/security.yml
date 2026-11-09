@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   security:
-    uses: UNIS-Svalbard-Weather-Information/swi-shared-workflows/.github/workflows/security.yml@main
+    uses: svalbard-watch/swi-shared-workflows/.github/workflows/security.yml@main
     with:
       shared-ref: main
       # Kept in report-only mode while the first scans of the OpenTopoData image are reviewed.
