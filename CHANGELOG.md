@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2](https://github.com/svalbard-watch/swi-elevationapi/compare/1.0.1...1.0.2) (2026-11-22)
+
+
+### Bug Fixes
+
+* keep OTD v1.9 ([4386b05](https://github.com/svalbard-watch/swi-elevationapi/commit/4386b05b2c24a898c8139506c60602e4061fb9d7))
+* **vul:** update the docker file for vulnerabilities ([b3fbb4c](https://github.com/svalbard-watch/swi-elevationapi/commit/b3fbb4c7128d2c1d062d46f87dbea5defe32fd6a))
+* **vul:** update the docker file for vulnerabilities ([597c21e](https://github.com/svalbard-watch/swi-elevationapi/commit/597c21e8fe19520a0232088e8bad04ae6e30ca54))
+
 ## [1.0.1](https://github.com/UNIS-Svalbard-Weather-Information/swi-elevationapi/compare/1.0.0...1.0.1) (2026-10-11)
 
 
