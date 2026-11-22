@@ -2,9 +2,9 @@
 # one builds it from the upstream source at a pinned release and adds GDAL for the DTM
 # preparation (prepare-data.sh). Follows upstream's docker/Dockerfile, with a current Python
 # and current dependencies (requirements.txt).
-ARG PYTHON_IMAGE=python:3.14-slim-trixie@sha256:a2b82f3c48559aa0a8446d9af49826b6e2b2016f4cd2afabfe6013ec53729170
-# Open Topo Data v1.9.0
-ARG OTD_REF=e93ff94ae530b7abccebf03889b06a7c72dfeea0
+ARG PYTHON_IMAGE=python:3.14.10-slim-trixie@sha256:9aaa474097d094040649f2162a627c0049b408f52138d980916788d80f04802f
+# Open Topo Data v1.10.0
+ARG OTD_REF=b6d115663076476ef5ee795a5bff2e87e1a3c68f
 
 FROM scratch AS otd-source
 ARG OTD_REF
